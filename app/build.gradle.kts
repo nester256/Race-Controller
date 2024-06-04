@@ -9,11 +9,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.race_controller"
+    namespace = "com.example.racecontroller"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.race_controller"
+        applicationId = "com.example.racecontroller"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

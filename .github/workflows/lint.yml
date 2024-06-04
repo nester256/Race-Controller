@@ -1,7 +1,6 @@
 name: ktlintCheck
 
-on:
-  pull_request:
+on: [push]
 
 jobs:
   build:
@@ -13,6 +12,7 @@ jobs:
         with:
           distribution: 'oracle'
           java-version: '19'
+          cache: 'gradle'
       - name: Run Coverage
         run: |
           chmod +x gradlew
