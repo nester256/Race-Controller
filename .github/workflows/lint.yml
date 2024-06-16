@@ -1,4 +1,4 @@
-name: ktlintCheck
+name: android lint check
 
 on: [push]
 
