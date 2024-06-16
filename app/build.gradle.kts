@@ -1,11 +1,11 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-
     id("com.google.gms.google-services")
-
     // Add the Crashlytics Gradle plugin
     id("com.google.firebase.crashlytics")
+    id("org.jlleitschuh.gradle.ktlint")
+//    id("io.gitlab.arturbosch.detekt")
 }
 
 android {
